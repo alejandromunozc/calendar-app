@@ -50,7 +50,6 @@ export const CalendarModal = () => {
 
   const closeModal = () => {
     dispatch(uiCloseModal());
-    console.log('cerrar modal');
   }
 
   const handleStartDateChange = (e) => {
